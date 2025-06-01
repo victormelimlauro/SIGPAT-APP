@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "projeto",
+    "slug": "snack-bcea6fa9-5dd5-4923-84dc-0c8adcca9c15",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "android.permission.CAMERA",
+        "CAMERA",
+        "android.permission.CAMERA"
+      ],
+      "package": "com.anonymous.snackbcea6fa95dd5492384dc0c8adcca9c15"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "expo-barcode-scanner"
+    ]
+  }
+}
